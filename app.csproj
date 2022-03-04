@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-app-7E90E2CA-3B75-4041-AC90-F71C4F3DC121</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.22" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.22" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.22" />
+  </ItemGroup>
+
+</Project>
